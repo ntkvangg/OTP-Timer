@@ -1,0 +1,41 @@
+.container-otp-parent{
+    max-width: 70vw;
+    padding: 2rem;
+    margin: 0 auto;
+    background-color: #f8f9fa;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 20px;
+    .wrapper-input-otp {
+        div{
+            display: block !important;
+            input{
+                padding: 0.375rem 0.75rem;
+                font-size: 1rem;
+                font-weight: 400;
+                line-height: 1.5;
+                color: #212529;
+                background-color: #fff;
+                background-clip: padding-box;
+                border: 1px solid #ced4da;
+                appearance: none;
+                border-radius: 0.375rem;
+                transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+                width: 3rem !important;
+                margin-right: .5rem;
+            }
+            input:focus{
+                color: #212529;
+                background-color: #fff;
+                border-color: #86b7fe;
+                outline: 0;
+                box-shadow: 0 0 0 0.25rem rgba(13,110,253,.25);
+            }
+        }
+    }
+    .resend-otp{
+        justify-content: center;
+        align-items: center;
+    }
+}
